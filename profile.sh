@@ -4,11 +4,11 @@
 #SBATCH --partition=cpu
 #SBATCH --mem=16g
 #SBATCH --cpus-per-task=1
-#SBATCH --time 00:00:30
+#SBATCH --time 00:00:59
 #SBATCH -e ./utk.e
 #SBATCH -o ./utk.o
 
-cd ~/BZAN_583_code
+cd ~/HPC_BZAN583/HPC_project
 pwd
 
 ## module names can vary on different platforms

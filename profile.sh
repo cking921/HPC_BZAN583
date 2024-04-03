@@ -8,7 +8,7 @@
 #SBATCH -e ./utk.e
 #SBATCH -o ./utk.o
 
-cd ~/HPC_BZAN583/HPC_project
+cd ~/HPC_BZAN583/
 pwd
 
 ## module names can vary on different platforms
